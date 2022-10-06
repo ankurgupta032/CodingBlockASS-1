@@ -173,23 +173,26 @@
 
 footer{
   /* height: 50vh; */
-  background-color: rgb(158, 148, 148);
+  background-color:black;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   padding: 70px 20px;
 }
 .photo,.contact,.news{
+  color: white;
   width: 400px;
   padding: 10px 20px;
   font-size: 22px;
 }
 .photo h3,.contact h3,.news h3{
   padding: 20px;
+  color: white;
 }
 .photo p,.contact p,.news p{
   padding: 10px;
   opacity: .7;
+  color: white;
 }
 .news input{
   width: 300px;
@@ -199,5 +202,6 @@ footer{
   border-radius: 10px;
   padding: 5px;
   margin: 20px 0px;
+  color: white;
 }
 
