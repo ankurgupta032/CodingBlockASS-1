@@ -108,19 +108,23 @@
     border-radius: 5%;
   }
   #sec2{
-    background-color: lightgreen;
+    background-color: green;
+    height: 270px;
   }
   #sec2 .p1{
+    height: 70px;
     text-align: center;
     color: blue;
-    font-size: 20px;
+    font-size: 30px;
   }
   #sec2 .p2{
+    height: 70px;
     text-align: center;
     color: white;
     font-size: 40px;
   }
   #sec2 .p3{
+    height: 70px;
     text-align: center;
     color: white;
     font-size: 20px;
@@ -131,6 +135,9 @@
     height: 30px;
     border-radius: 50%;
     border: 2px solid skyblue;
+  }
+  #sec2 button:hover{
+    background-color: skyblue;
   }
 
 
