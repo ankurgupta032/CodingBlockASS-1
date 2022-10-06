@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+#header {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 0 20px;
+    top: 0;
+  }
+  #header img{
+    width: 80px;
+    border-radius: 50%;
+    height: 30px;
+    float: left;
+  }
+  #header img:hover{
+    cursor: pointer;
+  }
+  #logo {
+    width: 70px;
+    height: 70px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+  }
+  #logo:hover{
+    cursor: pointer;
+  }
+  nav ul {
+    padding: 0px 143px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    transition: 0.5s;
+    color: white;
+  }
+  nav ul li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .book{
+    width: 120px;
+    height: 35px;
+    color: skyblue;
+    border: 2px solid skyblue;
+    border-radius: 50px 50px 50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .book span{
+    font-size: 20px;
+  }
+  .book:hover{
+    background-color:skyblue;
+    color: black;
+  }
+  .header1{
+    width: 80%;
+    margin: 20px 142px;
+    padding: 10px 20px;
+    background-color: oldlace;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+  }
+  .header1 p{
+    color: blue;
+  }
+  #sec-1 {
+    margin: 8px auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #sec-1 .circles {
+    width: 422px;
+    height: 250px;
+    background-color: skyblue;
+    margin: 6px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+  }
+  #sec-1 .circles img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+  }
+  #sec2{
+    background-color: lightgreen;
+  }
+  #sec2 .p1{
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+  }
+  #sec2 .p2{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+  }
+  #sec2 .p3{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
+  #sec2 button{
+    margin: 0 50%;
+    width: 100px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid skyblue;
+  }
+
+
